@@ -196,6 +196,9 @@ body {
   height: 6rem;
   
  }
+ .Footer-container {
+  padding-bottom: 24rem;
+ }
 
  .Footer-container a {
   padding: 1em;
