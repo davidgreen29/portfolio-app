@@ -79,7 +79,7 @@ body {
 }
 
 .inside-container h1 {
-  font-family: 'Silkscreen', cursive;
+  font-family: 'Silkscreen';
   font-size: 3rem;
   
   color: rgba(0,0,0,.8);
