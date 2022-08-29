@@ -6,6 +6,7 @@ html {
  background-image: linear-gradient(to bottom, gray, #F5F5F5 );
   background-size: cover;
 }
+
 body {
   margin: 0;
   display: flex;
@@ -21,6 +22,7 @@ body {
   padding-left: 3em;
   padding-top: 2em;
 }
+
 .navBar-img {
  width: 7rem;
  height: 7rem;
@@ -33,7 +35,6 @@ body {
   width: 1.5rem;
   text-align: center;
   display: none;
-
 }
 
 .nav-bar-links {
@@ -47,21 +48,22 @@ body {
   border: none;
   background-color: inherit;
   padding: 1em;
- list-style-type: none;
+  list-style-type: none;
   color: #2DF30D;
   font-size: 1.5rem;
   cursor: pointer;
 }
+
 .about-button:hover{
   color: black;
 }
+
 .contact-button:hover {
   color: black;
 }
 
 .main-content-container {
  padding-top: 4em;
- 
  display: flex;
  justify-content: center;
  align-items: center;
@@ -74,6 +76,7 @@ body {
   box-shadow: 1px 1px 3px 1px gray inset;
   border-radius:.5rem ;
 }
+
 .green {
  color:#2DF30D;
 }
@@ -81,11 +84,8 @@ body {
 .inside-container h1 {
   font-family: 'Silkscreen';
   font-size: 3rem;
-  
   color: rgba(0,0,0,.8);
 }
-
-
 
 .inside-container p {
   font-family: 'Roboto Mono', monospace;
@@ -94,29 +94,23 @@ body {
 }
 
 .para-link-git {
-  color:black;
- 
-  
+  color:black; 
 }
 
 .para-link-git:hover {
   color:#2DF30D;
 }
 
-
-
 .Footer-container {
   display: flex;
  justify-content: center;
  padding-top: 3em;
  padding-bottom: 2em;
-
 }
 
 .Footer-container a {
   padding: 2rem;
-
-
+  padding-bottom: 20rem;
 }
 
 .linkIn-logo {
@@ -138,18 +132,12 @@ body {
   color: black;
   font-family: 'Roboto mono',monospace;
   font-size: 1.5rem;
-  
   letter-spacing: .1rem;
-
 }
 
 .resume-Link:hover {
   color:#2DF30D;
-  
- 
 }
-
-
 
 @media(max-width:550px)  {
 .inside-container {
@@ -186,7 +174,6 @@ body {
   left:0;
   transition: all .5s ease;
   z-index: 1;
-  
 }
 
 .menu-icon {
@@ -211,8 +198,5 @@ body {
  .Footer-container {
   padding-bottom: 24rem;
  }
-
-
-
 
 }
