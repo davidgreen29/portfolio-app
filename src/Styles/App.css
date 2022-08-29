@@ -183,6 +183,9 @@ body {
   font-size: 2.5rem;
   cursor: pointer;
 }
+.para-link-git {
+  color:#2DF30D;
+}
 
  .about-button:hover {
   color: white;
