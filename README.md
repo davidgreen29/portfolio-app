@@ -12,7 +12,7 @@ How to navigate
 You can find all the CSS in my styles folder. Popup.css applies styles to the About modal and the Contact modal. 
 You can find the rest of the styles in the app.css file. 
 
-Navbar, about, and contact modal source code 
+Navbar, about, and contact modal source code.
 To view the source code for the navbar which contains the About and 
 Contact components open the components folder 
 and there you will find the navbar folder.
