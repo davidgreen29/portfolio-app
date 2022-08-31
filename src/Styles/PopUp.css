@@ -10,11 +10,12 @@
     justify-content: center;
     align-items: center;
     overflow-y: auto;
-    padding-top:4rem;
+    
     
 }
 
 .inner-pop-up {
+    top: 15%;
     position: relative;
     padding: 2rem;
     margin-top: auto;
@@ -128,6 +129,7 @@ textarea:focus {
 @media(max-width:540px)  {
   
     .inner-pop-up {
+        top:5%;
         width: 90%;
         box-shadow: none;
         margin-top:auto;
