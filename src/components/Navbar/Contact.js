@@ -33,39 +33,40 @@ export default function Contact() {
 
     return(
         <div>
-        <button className="contact-button"  onClick={()=>{
-           document.body.style.overflow = 'hidden';
-             setButtonOpen(true)}} >Contact</button>
+            <button className="contact-button"  onClick={()=>{
+            document.body.style.overflow = 'hidden';
+                setButtonOpen(true)}} >Contact</button>
 
-<PopUp  trigger={buttonOpen} setTrigger={setButtonOpen} >
-<div className="form-container">
-    <div className="h1-container">
-    <h1 className="form-headline">Got a problem you need help solving?</h1>
-    </div>
-    <form className="form" onSubmit={handleSubmit}>
-        <label for="fullname">Full Name</label>
-        <input  type="text" name="fullname" id="fullname"
-         required onChange={handleChange} value={contactInfo.fullname} placeholder="Full Name" ></input>
-        
-        <label for="email">Email</label>
-        <input  type="email" name="email" id="email" onChange={handleChange} 
-         required value={contactInfo.email} placeholder="Email"></input>
-        
-        <label for="message">Message</label>
-        <textarea name="message" id="message" onChange={handleChange} 
-         required  value={contactInfo.message} placeholder="lets work together..."></textarea>
-         <div className="button-container">
-        <button className="submit-button" type="submit">Submit</button>
+            <PopUp  trigger={buttonOpen} setTrigger={setButtonOpen} >
+                <div className="form-container">
+                    <div className="h1-container">
+
+                    <h1 className="form-headline">Got a problem you need help solving?</h1>
+
+                    </div>
+                    <form className="form" onSubmit={handleSubmit}>
+                        <label for="fullname">Full Name</label>
+                        <input  type="text" name="fullname" id="fullname"
+                        required onChange={handleChange} value={contactInfo.fullname} placeholder="Full Name" ></input>
+                        
+                        <label for="email">Email</label>
+                        <input  type="email" name="email" id="email" onChange={handleChange} 
+                        required value={contactInfo.email} placeholder="Email"></input>
+                        
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" onChange={handleChange} 
+                        required  value={contactInfo.message} placeholder="lets work together..."></textarea>
+                       
+                        <div className="button-container">
+                        <button className="submit-button" type="submit">Submit</button>
+                        </div>
+                    
+                    </form>
+                </div>
+
+             </PopUp>
+
         </div>
-    </form>
-</div>
-
-
-   
-   
-    </PopUp>
-
- </div>
  
     )
 }
