@@ -33,6 +33,9 @@
     top: 1rem;
     right: 1rem;
 }
+.close-popup:hover{
+    color:black;
+}
 
 .form-container {
    width: 100%; 
