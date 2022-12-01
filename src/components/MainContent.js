@@ -7,7 +7,7 @@ export default function MainContent() {
                 <h1 className="page-headline">Let's Build Together!</h1>
             
             <p className="home-page-para-content">Hello, I'm David <span className="green">Green</span>.
-            Are you looking for someone to help build a new application or maintain an existing 
+            Are you looking for someone to help with building a new application or maintain an existing 
             code base? Does your app use JavaScript, React.js, Node.js, HTML, and CSS, or C# and .NET?
             Well, search no further; I can help with all these things. If you'd like to know how
             I could help improve an application you're working on, feel free to contact me or view my personal projects
