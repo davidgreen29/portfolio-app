@@ -6,11 +6,11 @@ export default function MainContent() {
             
                 <h1 className="page-headline">Let's Build Together!</h1>
             
-            <p className="home-page-para-content">Hello, I'm David <span className="green">Green</span>.
-            Are you looking for someone to help with building a new application or maintain an existing 
-            code base? Does your app use JavaScript, React.js, Node.js, HTML, and CSS, or C# and .NET?
-            Well, search no further; I can help with all these things. If you'd like to know how
-            I could help improve an application you're working on, feel free to contact me or view my personal projects
+            <p className="home-page-para-content">
+            Software development is about more than just writing code. It's about solving problems and using your tools to 
+            do that. As John Johnson said, "First solve the problem, then write the code." Solving problems is one of my 
+            favorite things to do and where I get my motivation. I'm always looking for the next challenge. If you've got a problem to solve,
+             feel free to contact me or view my personal projects
             on <a className="para-link-git" href="https://github.com/davidgreen29" target="_blank" rel="noopener noreferrer">Github</a>.
              </p> 
 
