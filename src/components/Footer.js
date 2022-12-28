@@ -11,9 +11,6 @@ export default function Footer() {
     
     return(
         <div className="Footer-container">
-            <a className="resume-Link" href="https://drive.google.com/file/d/15PH4KTOTR-jAOGtLqtjAKuLVvjQG8SAz/view?usp=sharing" target="_blank" rel="noopener noreferrer" >
-                Resume
-            </a>
             <a href="https://github.com/davidgreen29" target="_blank" rel="noopener noreferrer">
                 <img src={gitLogo} alt="github-link" className="git-link"/>
             </a>

@@ -102,7 +102,7 @@ body {
 }
 
 .Footer-container {
-  display: flex;
+display: flex;
  justify-content: center;
  padding-top: 3em;
  padding-bottom: 2em;
@@ -127,17 +127,6 @@ body {
   border-radius: 3rem;
 }
 
-.resume-Link {
-  text-decoration: none;
-  color: black;
-  font-family: 'Roboto mono',monospace;
-  font-size: 1.5rem;
-  letter-spacing: .1rem;
-}
-
-.resume-Link:hover {
-  color:#2DF30D;
-}
 
 @media(max-width:550px)  {
 .inside-container {
