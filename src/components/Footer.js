@@ -1,6 +1,6 @@
 import React from 'react';
 import gitLogo from '../images/GitHub-Mark-32px.png';
-import linkLogo from '../images/LI-In-Bug.png';
+
 
 
 
