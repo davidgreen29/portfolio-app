@@ -113,15 +113,6 @@ display: flex;
   padding-bottom: 20rem;
 }
 
-.linkIn-logo {
-  width:3rem;
-  height: 2.1rem;
-}
-
-.linkIn-logo:hover {
- background-color: #2DF30D;
-}
-
 .git-link:hover {
   background-color: #2DF30D;
   border-radius: 3rem;

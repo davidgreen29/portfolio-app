@@ -14,11 +14,6 @@ export default function Footer() {
             <a href="https://github.com/davidgreen29" target="_blank" rel="noopener noreferrer">
                 <img src={gitLogo} alt="github-link" className="git-link"/>
             </a>
-            <a href="https://www.linkedin.com/in/davidgreen429" target="_blank" rel="noopener noreferrer">
-                <img className="linkIn-logo" src={linkLogo} alt="linkedin"/>
-            </a>
-
-
         </div>
     )
 }
